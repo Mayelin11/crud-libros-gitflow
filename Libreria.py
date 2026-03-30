@@ -22,7 +22,7 @@ def mostrar_menu():
     print("\n---Menu---")
     print("1. Agregar libro")
     print("2. Mostrar libros")
-    print("3. Buscar libro")
+    print("3. Actualizar libro")
     print("4. Editar libro")
     print("5. Eliminar libro")
     print("6. Salir")
@@ -51,7 +51,7 @@ def mostrar_libros():
 
 # Buscar libro
 
-def buscar_libro():
+def Actualizar_libro():
     titulo_buscar = input("Ingrese el titulo a buscar:")
 
     for libro in biblioteca:
@@ -100,7 +100,7 @@ while opcion != 6:
     elif opcion == 2:
         mostrar_libros()
     elif opcion == 3:
-        buscar_libro()
+        Actualizar_libro()
     elif opcion == 4:
         editar_libro()
     elif opcion == 5:
