@@ -41,13 +41,13 @@ def crear_libro():
 
 # mostrar libros
 
-def mostrar_libros():
+def Leer_libros():
     if len(biblioteca) == 0:
         print("No hay libros registrados")
     else:
 
         for libro in biblioteca:
-            libro.mostrar_info()
+            libro.Leer_info()
 
 # Buscar libro
 
@@ -98,7 +98,7 @@ while opcion != 6:
     if opcion == 1:
         agregar_libro()
     elif opcion == 2:
-        mostrar_libros()
+        Leer_libros()
     elif opcion == 3:
         buscar_libro()
     elif opcion == 4:
