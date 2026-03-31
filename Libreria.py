@@ -109,3 +109,5 @@ while opcion != 6:
         print("Saliendo del sistema...")
     else:
         print("Opcion invalida")
+
+        # La interfaz aun no esta realizada porque no inclui interfaz para este proyecto, solo es una prueba de verificacion.
