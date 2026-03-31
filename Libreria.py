@@ -80,7 +80,7 @@ def editar_libro():
     #Eliminar
 
 def eliminar_libro():
-    titulo_buscar = input("Ingrese el titulo del libro a eliminar: ")
+    titulo_buscar = input("Ingrese el autor del libro a eliminar: ")
 
     for libro in biblioteca:
         if libro.titulo.lower() == titulo_buscar.lower():
