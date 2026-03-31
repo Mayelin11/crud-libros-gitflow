@@ -20,8 +20,8 @@ biblioteca = []
 # Menu
 def mostrar_menu():
     print("\n---Menu---")
-    print("1. Agregar libro")
-    print("2. Leer libros")
+    print("1. Crear libro")
+    print("2. Mostrar libros")
     print("3. Buscar libro")
     print("4. Editar libro")
     print("5. Eliminar libro")
@@ -29,7 +29,7 @@ def mostrar_menu():
 
 # Agregar libros
 
-def agregar_libro():
+def crear_libro():
     titulo = input("Ingrese el titulo: ")
     autor = input("Ingrese el autor:")
     genero = input("Ingrese el genero:")
@@ -80,7 +80,7 @@ def editar_libro():
     #Eliminar
 
 def eliminar_libro():
-    titulo_buscar = input("Ingrese el titulo del libro a eliminar: ")
+    titulo_buscar = input("Ingrese el autor del libro a eliminar: ")
 
     for libro in biblioteca:
         if libro.titulo.lower() == titulo_buscar.lower():
@@ -109,3 +109,5 @@ while opcion != 6:
         print("Saliendo del sistema...")
     else:
         print("Opcion invalida")
+
+        # La interfaz aun no esta realizada porque no inclui interfaz para este proyecto, solo es una prueba de verificacion.
